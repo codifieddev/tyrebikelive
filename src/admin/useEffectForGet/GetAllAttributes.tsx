@@ -7,8 +7,9 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 
-export default function GetAllAttributes() {
-  const { allattributes, attributeLoading, attributeError } = useSelector(
+
+export default function GetAllAttributes() { 
+  const {  allattributes, attributeLoading, attributeError } = useSelector(
     (state: RootState) => state.attributes,
   );
 
