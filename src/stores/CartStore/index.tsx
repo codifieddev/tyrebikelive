@@ -7,6 +7,7 @@ import canUseDOM from "@/utilities/canUseDOM";
 import { type Cart } from "./types";
 
 type CartState = {
+  
   cart: Cart | null;
   setCart: (cartToSet: Cart | null) => void;
   updateCart: (cartToSet: Cart) => void;
